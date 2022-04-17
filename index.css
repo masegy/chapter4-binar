@@ -1,0 +1,119 @@
+body {
+  background-color: #9C835F;
+}
+
+.header-text {
+  color: #F9B23D;
+}
+
+figure {
+  height: 10rem;
+  text-align: center;
+}
+
+figure .choice-player {
+  max-width: 5rem;
+  height: auto;
+  margin: 1rem;
+  cursor: pointer;
+  -webkit-transition: 0.125s ease-in;
+  transition: 0.125s ease-in;
+}
+
+figure .hover:hover {
+  -webkit-transform: scale(1.2) rotate(15deg);
+          transform: scale(1.2) rotate(15deg);
+}
+
+figure .choice-com {
+  max-width: 5rem;
+  height: auto;
+  margin: 1rem;
+}
+
+.win-player,
+.win-com {
+  color: white;
+  font-family: sans-serif;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  margin-top: 10rem;
+  background-color: #4C9654;
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+  height: 10rem;
+  padding-top: 2.5rem;
+  margin-bottom: 10rem;
+}
+
+.win-player {
+  display: none;
+}
+
+.win-com {
+  display: none;
+}
+
+.draw {
+  color: white;
+  font-family: sans-serif;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  margin-top: 10rem;
+  background-color: #035B0C;
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+  height: 10rem;
+  padding-top: 3.5rem;
+  margin-bottom: 10rem;
+}
+
+.draw {
+  display: none;
+}
+
+.vs {
+  color: #BD0000;
+  font-size: 5rem;
+  font-weight: bolder;
+  font-family: sans-serif;
+  display: block;
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+}
+
+.computer .choice-com {
+  max-width: 5rem;
+  height: auto;
+}
+
+.reset {
+  text-align: center;
+}
+
+.reset .reset-btn {
+  max-width: 3rem;
+  height: auto;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+  transition: transform .8s ease-in-out, -webkit-transform .8s ease-in-out;
+}
+
+.reset .reset-btn:hover {
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+
+.chosen {
+  background-color: #C4C4C4;
+  border-radius: 1rem;
+}
+/*# sourceMappingURL=index.css.map */
